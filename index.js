@@ -76,10 +76,15 @@ app.use((req, res, next) => {
 // Swagger UI setup with CDN support for Vercel
 if (fs.existsSync(path.join(__dirname, 'swagger.yaml'))) {
   const swaggerDocument = YAML.load(path.join(__dirname, 'swagger.yaml'));
-  const CSS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.15.5/swagger-ui.min.css";
+
+  // Use generic CDN links that are known to work
+  const CSS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui.min.css";
+  const JS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui-bundle.min.js";
+  const JS_PRESET_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui-standalone-preset.min.js";
 
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument, {
     customCssUrl: CSS_URL,
+    customJs: [JS_URL, JS_PRESET_URL],
     customSiteTitle: "Weverse API Docs"
   }));
   logger.info('Swagger UI available at /api-docs');
