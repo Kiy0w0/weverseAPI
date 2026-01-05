@@ -788,3 +788,120 @@
 [2026-01-06 01:27:42] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
 [2026-01-06 01:27:42] info: 	GET /api-docs/swagger-ui-init.js
 [2026-01-06 01:27:42] info: 	GET /swagger-ui-init.js 304 - 0ms
+[2026-01-06 01:34:00] info: 	Credentials found in environment variables
+[2026-01-06 01:34:00] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-06 01:34:00] info: 	Using API token from environment variables
+[2026-01-06 01:34:00] info: 	Using existing token from environment variables
+[2026-01-06 01:34:00] info: 	ReDoc available at /api-docs
+[2026-01-06 01:34:00] info: 	Server running on port 3001
+[2026-01-06 01:34:00] info: 	Environment: development
+[2026-01-06 01:34:00] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-06 01:34:00] info: 	Auto-login credentials found, attempting to log in
+[2026-01-06 01:34:04] info: 	GET /api-docs/
+[2026-01-06 01:34:04] info: 	GET /api-docs/ 200 - 4ms
+[2026-01-06 01:34:05] info: 	GET /api-docs/
+[2026-01-06 01:34:05] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:07] info: 	GET /
+[2026-01-06 01:34:07] info: 	GET / 304 - 0ms
+[2026-01-06 01:34:07] info: 	GET /favicon.ico
+[2026-01-06 01:34:07] warn: 	Not found: GET /favicon.ico
+[2026-01-06 01:34:07] info: 	GET /favicon.ico 404 - 1ms
+[2026-01-06 01:34:09] info: 	GET /api-docs/
+[2026-01-06 01:34:09] info: 	GET /api-docs/ 200 - 1ms
+[2026-01-06 01:34:18] info: 	GET /api-docs/
+[2026-01-06 01:34:18] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:19] info: 	GET /api-docs/
+[2026-01-06 01:34:19] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:25] info: 	Credentials found in environment variables
+[2026-01-06 01:34:25] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-06 01:34:25] info: 	Using API token from environment variables
+[2026-01-06 01:34:25] info: 	Using existing token from environment variables
+[2026-01-06 01:34:25] info: 	ReDoc available at /api-docs
+[2026-01-06 01:34:27] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-06 01:34:27] info: 	Using API token from environment variables
+[2026-01-06 01:34:27] info: 	Using existing token from environment variables
+[2026-01-06 01:34:27] info: 	Getting communities
+[2026-01-06 01:34:27] info: 	Getting communities
+[2026-01-06 01:34:27] error: 	Failed to get communities: Network Error
+[2026-01-06 01:34:27] info: 	Getting post details: post-1
+[2026-01-06 01:34:27] info: 	Getting posts for community: 12345, page: 1, size: 20, type: all
+[2026-01-06 01:34:27] info: 	Getting posts for community: 123, page: 1, size: 20, type: artist
+[2026-01-06 01:34:27] info: 	Getting posts for community: 12345, page: 2, size: 50, type: all
+[2026-01-06 01:34:27] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-06 01:34:33] info: 	Credentials found in environment variables
+[2026-01-06 01:34:33] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-06 01:34:33] info: 	Using API token from environment variables
+[2026-01-06 01:34:33] info: 	Using existing token from environment variables
+[2026-01-06 01:34:33] info: 	ReDoc available at /api-docs
+[2026-01-06 01:34:33] info: 	Server running on port 3001
+[2026-01-06 01:34:33] info: 	Environment: development
+[2026-01-06 01:34:33] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-06 01:34:33] info: 	Auto-login credentials found, attempting to log in
+[2026-01-06 01:34:35] info: 	GET /api-docs/
+[2026-01-06 01:34:35] info: 	GET /api-docs/ 200 - 5ms
+[2026-01-06 01:34:35] info: 	GET /api-docs/
+[2026-01-06 01:34:35] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:35] info: 	GET /api-docs/
+[2026-01-06 01:34:35] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:36] info: 	GET /api-docs/
+[2026-01-06 01:34:36] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:36] info: 	GET /api-docs/
+[2026-01-06 01:34:36] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:36] info: 	GET /api-docs/
+[2026-01-06 01:34:36] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:36] info: 	GET /api-docs/
+[2026-01-06 01:34:36] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:36] info: 	GET /api-docs/
+[2026-01-06 01:34:36] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:37] info: 	GET /api-docs/
+[2026-01-06 01:34:37] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:37] info: 	GET /api-docs/
+[2026-01-06 01:34:37] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:37] info: 	GET /api-docs/
+[2026-01-06 01:34:37] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:37] info: 	GET /api-docs/
+[2026-01-06 01:34:37] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:37] info: 	GET /api-docs/
+[2026-01-06 01:34:37] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:38] info: 	GET /api-docs/
+[2026-01-06 01:34:38] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:38] info: 	GET /api-docs/
+[2026-01-06 01:34:38] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:38] info: 	GET /api-docs/
+[2026-01-06 01:34:38] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:38] info: 	GET /api-docs/
+[2026-01-06 01:34:38] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:38] info: 	GET /api-docs/
+[2026-01-06 01:34:38] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:39] info: 	GET /api-docs/
+[2026-01-06 01:34:39] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:40] info: 	GET /api-docs/
+[2026-01-06 01:34:40] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:40] info: 	GET /api-docs/
+[2026-01-06 01:34:40] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:43] info: 	GET /api-docs/
+[2026-01-06 01:34:43] info: 	GET /api-docs/ 200 - 0ms
+[2026-01-06 01:34:43] info: 	GET /favicon.ico
+[2026-01-06 01:34:43] warn: 	Not found: GET /favicon.ico
+[2026-01-06 01:34:43] info: 	GET /favicon.ico 404 - 2ms
+[2026-01-06 01:34:44] info: 	GET /api-docs/
+[2026-01-06 01:34:44] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:45] info: 	GET /api-docs/
+[2026-01-06 01:34:45] info: 	GET /api-docs/ 304 - 1ms
+[2026-01-06 01:34:45] info: 	GET /api-docs/
+[2026-01-06 01:34:45] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:34:50] info: 	GET /api-docs/
+[2026-01-06 01:34:50] info: 	GET /api-docs/ 304 - 0ms
+[2026-01-06 01:35:41] info: 	Credentials found in environment variables
+[2026-01-06 01:35:41] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-06 01:35:41] info: 	Using API token from environment variables
+[2026-01-06 01:35:41] info: 	Using existing token from environment variables
+[2026-01-06 01:35:41] info: 	ReDoc available at /api-docs
+[2026-01-06 01:35:41] info: 	Server running on port 3001
+[2026-01-06 01:35:41] info: 	Environment: development
+[2026-01-06 01:35:41] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-06 01:35:41] info: 	Auto-login credentials found, attempting to log in
+[2026-01-06 01:35:46] info: 	GET /api-docs/
+[2026-01-06 01:35:46] info: 	GET /api-docs/ 304 - 3ms
+[2026-01-06 01:35:46] info: 	GET /swagger.yaml
+[2026-01-06 01:35:46] info: 	GET /swagger.yaml 200 - 1ms

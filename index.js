@@ -45,7 +45,17 @@ const PORT = process.env.PORT || 3001;
 
 // Basic middleware
 app.use(express.json());
-app.use(helmet());
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'", "'unsafe-inline'", "cdn.jsdelivr.net"],
+      styleSrc: ["'self'", "'unsafe-inline'", "fonts.googleapis.com"],
+      fontSrc: ["'self'", "fonts.gstatic.com"],
+      imgSrc: ["'self'", "data:", "*"]
+    }
+  }
+}));
 app.use(cors());
 
 // Rate limiting - 100 requests per 15 minutes
@@ -73,22 +83,38 @@ app.use((req, res, next) => {
   next();
 });
 
-// Swagger UI setup with CDN support for Vercel
-if (fs.existsSync(path.join(__dirname, 'swagger.yaml'))) {
-  const swaggerDocument = YAML.load(path.join(__dirname, 'swagger.yaml'));
+// ReDoc Documentation (Vercel Compatible)
+app.get('/swagger.yaml', (req, res) => {
+  const yamlPath = path.join(__dirname, 'swagger.yaml');
+  try {
+    if (fs.existsSync(yamlPath)) {
+      res.setHeader('Content-Type', 'text/yaml');
+      res.send(fs.readFileSync(yamlPath, 'utf8'));
+    } else {
+      res.status(404).send('Swagger file not found');
+    }
+  } catch (e) {
+    res.status(500).send(e.message);
+  }
+});
 
-  // Use generic CDN links that are known to work
-  const CSS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui.min.css";
-  const JS_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui-bundle.min.js";
-  const JS_PRESET_URL = "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui-standalone-preset.min.js";
-
-  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument, {
-    customCssUrl: CSS_URL,
-    customJs: [JS_URL, JS_PRESET_URL],
-    customSiteTitle: "Weverse API Docs"
-  }));
-  logger.info('Swagger UI available at /api-docs');
-}
+app.get('/api-docs', (req, res) => {
+  const html = `<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Weverse API Documentation</title>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>body { margin: 0; padding: 0; }</style>
+    </head>
+    <body>
+      <redoc spec-url='/swagger.yaml'></redoc>
+      <script src="https://cdn.jsdelivr.net/npm/redoc@2.0.0-rc.56/bundles/redoc.standalone.js"></script>
+    </body>
+  </html>`;
+  res.send(html);
+});
+logger.info('ReDoc available at /api-docs');
 
 // Authentication middleware
 const checkAuth = (req, res, next) => {
