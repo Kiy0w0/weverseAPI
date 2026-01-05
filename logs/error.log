@@ -33,3 +33,15 @@
 [2025-04-15 13:34:08] error: 	Error response status: 404
 [2025-04-15 13:34:08] error: 	Error response headers: {"content-length":"9","connection":"keep-alive","server":"CloudFront","date":"Tue, 15 Apr 2025 06:34:13 GMT","x-cache":"Miss from cloudfront","via":"1.1 46fb7f9862e31783499ec88dc6457342.cloudfront.net (CloudFront)","x-amz-cf-pop":"CGK51-P4","x-amz-cf-id":"EcO-b6Dmn6lP6buqeSh8ETe2UlNr5BQDGqmEhYQb-nQmVkMagdUYYQ=="}
 [2025-04-15 13:34:08] error: 	Auto-login failed
+[2026-01-05 22:09:22] error: 	WEVERSE_EMAIL not found in environment variables
+[2026-01-05 22:09:24] error: 	WEVERSE_EMAIL not found in environment variables
+[2026-01-05 22:12:02] error: 	Failed to get communities: Network Error
+[2026-01-05 22:12:09] error: 	Failed to get communities: Network Error
+[2026-01-05 22:20:57] error: 	Failed to get communities: Network Error
+[2026-01-05 22:27:49] error: 	Failed to get communities: Network Error
+[2026-01-05 22:27:58] error: 	Failed to get communities: Network Error
+[2026-01-05 22:28:42] error: 	Failed to get communities: Network Error
+[2026-01-05 22:34:49] error: 	Failed to get communities: Network Error
+[2026-01-05 22:36:57] error: 	Failed to get communities: Network Error
+[2026-01-05 22:38:49] error: 	Failed to get communities: Network Error
+[2026-01-05 22:38:58] error: 	Failed to get communities: Network Error

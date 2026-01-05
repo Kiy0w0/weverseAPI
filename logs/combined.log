@@ -389,3 +389,370 @@
 [2025-04-15 13:38:29] debug: 	Request headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json","Authorization":"Bearer MkS3MvT9eqEXAMPLEsf29uXYZ","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36","Accept-Language":"en-US,en;q=0.9","Origin":"https://weverse.io","Referer":"https://weverse.io/"}
 [2025-04-15 13:38:30] debug: 	Response from /v1/community/undefined/posts: 200
 [2025-04-15 13:38:30] info: 	Found 3131 posts
+[2026-01-05 22:09:22] error: 	WEVERSE_EMAIL not found in environment variables
+[2026-01-05 22:09:24] warn: 	No credentials found in environment variables, checking .env file
+[2026-01-05 22:09:24] info: 	.env file does not exist at C:\Users\kezia\Downloads\Compressed\Aurabeam\OvO\weverse-api\.env
+[2026-01-05 22:09:24] warn: 	WEVERSE_EMAIL or WEVERSE_PASSWORD not found. Authentication may fail.
+[2026-01-05 22:09:24] error: 	WEVERSE_EMAIL not found in environment variables
+[2026-01-05 22:09:24] debug: 	Trying to load .env from relative path
+[2026-01-05 22:09:24] warn: 	Missing WEVERSE_EMAIL or WEVERSE_PASSWORD in environment
+[2026-01-05 22:09:24] warn: 	No credentials found in .env file
+[2026-01-05 22:09:24] debug: 	Environment variables available: ALLUSERSPROFILE, ANTIGRAVITY_CLI_ALIAS, APPDATA, CHROME_CRASHPAD_PIPE_NAME, COLOR, COLORTERM, CommonProgramFiles, CommonProgramFiles(x86), CommonProgramW6432, COMPUTERNAME, ComSpec, DriverData, EDITOR, EFC_12140_1262719628, EFC_12140_1592913036, EFC_12140_2283032206, EFC_12140_2775293581, EFC_12140_3789132940, FPS_BROWSER_APP_PROFILE_STRING, FPS_BROWSER_USER_PROFILE_STRING, GIT_ASKPASS, HOME, HOMEDRIVE, HOMEPATH, INIT_CWD, JEST_WORKER_ID, LANG, LOCALAPPDATA, LOGONSERVER, NODE, NODE_ENV, npm_command, npm_config_cache, npm_config_globalconfig, npm_config_global_prefix, npm_config_init_module, npm_config_local_prefix, npm_config_node_gyp, npm_config_noproxy, npm_config_npm_version, npm_config_prefix, npm_config_userconfig, npm_config_user_agent, npm_execpath, npm_lifecycle_event, npm_lifecycle_script, npm_node_execpath, npm_package_json, npm_package_name, npm_package_version, NUMBER_OF_PROCESSORS, OneDrive, OneDriveConsumer, ORIGINAL_XDG_CURRENT_DESKTOP, OS, Path, PATHEXT, PROCESSOR_ARCHITECTURE, PROCESSOR_IDENTIFIER, PROCESSOR_LEVEL, PROCESSOR_REVISION, ProgramData, ProgramFiles, ProgramFiles(x86), ProgramW6432, PROMPT, PSModulePath, PUBLIC, SESSIONNAME, SystemDrive, SystemRoot, TEMP, TERM_PROGRAM, TERM_PROGRAM_VERSION, TMP, USERDOMAIN, USERDOMAIN_ROAMINGPROFILE, USERNAME, USERPROFILE, VSCODE_GIT_ASKPASS_EXTRA_ARGS, VSCODE_GIT_ASKPASS_MAIN, VSCODE_GIT_ASKPASS_NODE, VSCODE_GIT_IPC_HANDLE, VSCODE_INJECTION, VSCODE_PYTHON_AUTOACTIVATE_GUARD, windir, ZES_ENABLE_SYSMAN
+[2026-01-05 22:09:24] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:11:01] info: 	Credentials found in environment variables
+[2026-01-05 22:11:01] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:11:01] info: 	Using API token from environment variables
+[2026-01-05 22:11:01] info: 	Using existing token from environment variables
+[2026-01-05 22:11:01] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:11:02] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:11:16] info: 	Credentials found in environment variables
+[2026-01-05 22:11:16] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:11:16] info: 	Using API token from environment variables
+[2026-01-05 22:11:16] info: 	Using existing token from environment variables
+[2026-01-05 22:11:16] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:11:17] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:12:01] info: 	Credentials found in environment variables
+[2026-01-05 22:12:01] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:12:01] info: 	Using API token from environment variables
+[2026-01-05 22:12:01] info: 	Using existing token from environment variables
+[2026-01-05 22:12:01] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:12:02] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:12:02] info: 	Using API token from environment variables
+[2026-01-05 22:12:02] info: 	Using existing token from environment variables
+[2026-01-05 22:12:02] info: 	Getting communities
+[2026-01-05 22:12:02] info: 	Getting communities
+[2026-01-05 22:12:02] error: 	Failed to get communities: Network Error
+[2026-01-05 22:12:02] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:12:02] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:12:09] info: 	Credentials found in environment variables
+[2026-01-05 22:12:09] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:12:09] info: 	Using API token from environment variables
+[2026-01-05 22:12:09] info: 	Using existing token from environment variables
+[2026-01-05 22:12:09] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:12:09] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:12:09] info: 	Using API token from environment variables
+[2026-01-05 22:12:09] info: 	Using existing token from environment variables
+[2026-01-05 22:12:09] info: 	Getting communities
+[2026-01-05 22:12:09] info: 	Getting communities
+[2026-01-05 22:12:09] error: 	Failed to get communities: Network Error
+[2026-01-05 22:12:09] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:12:09] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:20:57] info: 	Credentials found in environment variables
+[2026-01-05 22:20:57] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:20:57] info: 	Using API token from environment variables
+[2026-01-05 22:20:57] info: 	Using existing token from environment variables
+[2026-01-05 22:20:57] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:20:57] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:20:57] info: 	Using API token from environment variables
+[2026-01-05 22:20:57] info: 	Using existing token from environment variables
+[2026-01-05 22:20:57] info: 	Getting communities
+[2026-01-05 22:20:57] info: 	Getting communities
+[2026-01-05 22:20:57] error: 	Failed to get communities: Network Error
+[2026-01-05 22:20:57] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:20:57] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:23:15] info: 	Credentials found in environment variables
+[2026-01-05 22:23:15] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:23:15] info: 	Using API token from environment variables
+[2026-01-05 22:23:15] info: 	Using existing token from environment variables
+[2026-01-05 22:23:15] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:23:15] info: 	Server running on port 3001
+[2026-01-05 22:23:15] info: 	Environment: development
+[2026-01-05 22:23:15] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:23:15] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:23:24] info: 	GET /api-docs
+[2026-01-05 22:23:24] info: 	GET / 301 - 4ms
+[2026-01-05 22:23:24] info: 	GET /api-docs/
+[2026-01-05 22:23:24] info: 	GET / 200 - 2ms
+[2026-01-05 22:23:24] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:23:24] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:23:24] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:23:24] info: 	GET /swagger-ui-init.js 200 - 0ms
+[2026-01-05 22:23:24] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:23:24] info: 	GET /swagger-ui.css 200 - 10ms
+[2026-01-05 22:23:24] info: 	GET /swagger-ui-standalone-preset.js 200 - 9ms
+[2026-01-05 22:23:24] info: 	GET /swagger-ui-bundle.js 200 - 19ms
+[2026-01-05 22:23:25] info: 	GET /api-docs/favicon-16x16.png
+[2026-01-05 22:23:25] info: 	GET /favicon-16x16.png 200 - 2ms
+[2026-01-05 22:23:56] info: 	GET /favicon.ico
+[2026-01-05 22:23:56] warn: 	Not found: GET /favicon.ico
+[2026-01-05 22:23:56] info: 	GET /favicon.ico 404 - 1ms
+[2026-01-05 22:24:24] info: 	Credentials found in environment variables
+[2026-01-05 22:24:25] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:24:25] info: 	Using API token from environment variables
+[2026-01-05 22:24:25] info: 	Using existing token from environment variables
+[2026-01-05 22:24:25] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:24:25] info: 	Server running on port 3001
+[2026-01-05 22:24:25] info: 	Environment: development
+[2026-01-05 22:24:25] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:24:25] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:24:28] info: 	GET /api-docs/
+[2026-01-05 22:24:28] info: 	GET / 304 - 4ms
+[2026-01-05 22:24:28] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:24:28] info: 	GET /swagger-ui.css 304 - 2ms
+[2026-01-05 22:24:28] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:24:28] info: 	GET /swagger-ui-standalone-preset.js 304 - 1ms
+[2026-01-05 22:24:28] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:24:28] info: 	GET /swagger-ui-init.js 304 - 1ms
+[2026-01-05 22:24:28] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:24:28] info: 	GET /swagger-ui-bundle.js 304 - 1ms
+[2026-01-05 22:27:15] info: 	GET /api-docs/
+[2026-01-05 22:27:15] info: 	GET / 304 - 2ms
+[2026-01-05 22:27:15] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:27:15] info: 	GET /swagger-ui.css 304 - 2ms
+[2026-01-05 22:27:15] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:27:15] info: 	GET /swagger-ui-init.js 304 - 0ms
+[2026-01-05 22:27:15] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:27:15] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:27:15] info: 	GET /swagger-ui-bundle.js 304 - 3ms
+[2026-01-05 22:27:15] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
+[2026-01-05 22:27:19] info: 	GET /
+[2026-01-05 22:27:19] info: 	GET / 200 - 1ms
+[2026-01-05 22:27:19] info: 	GET /favicon.ico
+[2026-01-05 22:27:19] warn: 	Not found: GET /favicon.ico
+[2026-01-05 22:27:19] info: 	GET /favicon.ico 404 - 1ms
+[2026-01-05 22:27:23] info: 	GET /
+[2026-01-05 22:27:23] info: 	GET / 304 - 1ms
+[2026-01-05 22:27:23] info: 	GET /favicon.ico
+[2026-01-05 22:27:23] warn: 	Not found: GET /favicon.ico
+[2026-01-05 22:27:23] info: 	GET /favicon.ico 404 - 1ms
+[2026-01-05 22:27:24] info: 	GET /api-docs/favicon-32x32.png
+[2026-01-05 22:27:24] info: 	GET /favicon-32x32.png 200 - 3ms
+[2026-01-05 22:27:24] info: 	GET /api-docs/
+[2026-01-05 22:27:24] info: 	GET / 304 - 0ms
+[2026-01-05 22:27:24] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:27:24] info: 	GET /swagger-ui.css 304 - 1ms
+[2026-01-05 22:27:24] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:27:24] info: 	GET /swagger-ui-init.js 304 - 1ms
+[2026-01-05 22:27:24] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:27:24] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:27:24] info: 	GET /swagger-ui-bundle.js 304 - 1ms
+[2026-01-05 22:27:24] info: 	GET /swagger-ui-standalone-preset.js 304 - 1ms
+[2026-01-05 22:27:48] info: 	Credentials found in environment variables
+[2026-01-05 22:27:48] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:27:48] info: 	Using API token from environment variables
+[2026-01-05 22:27:48] info: 	Using existing token from environment variables
+[2026-01-05 22:27:48] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:27:49] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:27:49] info: 	Using API token from environment variables
+[2026-01-05 22:27:49] info: 	Using existing token from environment variables
+[2026-01-05 22:27:49] info: 	Getting communities
+[2026-01-05 22:27:49] info: 	Getting communities
+[2026-01-05 22:27:49] error: 	Failed to get communities: Network Error
+[2026-01-05 22:27:49] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:27:49] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:27:49] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:27:57] info: 	Credentials found in environment variables
+[2026-01-05 22:27:58] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:27:58] info: 	Using API token from environment variables
+[2026-01-05 22:27:58] info: 	Using existing token from environment variables
+[2026-01-05 22:27:58] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:27:58] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:27:58] info: 	Using API token from environment variables
+[2026-01-05 22:27:58] info: 	Using existing token from environment variables
+[2026-01-05 22:27:58] info: 	Getting communities
+[2026-01-05 22:27:58] info: 	Getting communities
+[2026-01-05 22:27:58] error: 	Failed to get communities: Network Error
+[2026-01-05 22:27:58] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:27:58] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:27:58] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:28:02] info: 	Credentials found in environment variables
+[2026-01-05 22:28:02] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:28:02] info: 	Using API token from environment variables
+[2026-01-05 22:28:02] info: 	Using existing token from environment variables
+[2026-01-05 22:28:03] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:28:03] info: 	Server running on port 3001
+[2026-01-05 22:28:03] info: 	Environment: development
+[2026-01-05 22:28:03] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:28:03] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:28:05] info: 	GET /api-docs/
+[2026-01-05 22:28:05] info: 	GET / 304 - 4ms
+[2026-01-05 22:28:06] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:28:06] info: 	GET /swagger-ui.css 304 - 1ms
+[2026-01-05 22:28:06] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:28:06] info: 	GET /swagger-ui-bundle.js 304 - 1ms
+[2026-01-05 22:28:06] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:28:06] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:28:06] info: 	GET /swagger-ui-init.js 304 - 1ms
+[2026-01-05 22:28:06] info: 	GET /swagger-ui-standalone-preset.js 304 - 3ms
+[2026-01-05 22:28:41] info: 	Credentials found in environment variables
+[2026-01-05 22:28:41] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:28:41] info: 	Using API token from environment variables
+[2026-01-05 22:28:41] info: 	Using existing token from environment variables
+[2026-01-05 22:28:41] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:28:42] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:28:42] info: 	Using API token from environment variables
+[2026-01-05 22:28:42] info: 	Using existing token from environment variables
+[2026-01-05 22:28:42] info: 	Getting communities
+[2026-01-05 22:28:42] info: 	Getting communities
+[2026-01-05 22:28:42] error: 	Failed to get communities: Network Error
+[2026-01-05 22:28:42] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:28:42] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:28:42] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:31:18] info: 	GET /api-docs/
+[2026-01-05 22:31:18] info: 	GET / 200 - 3ms
+[2026-01-05 22:31:18] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:31:18] info: 	GET /swagger-ui.css 200 - 5ms
+[2026-01-05 22:31:18] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:31:18] info: 	GET /swagger-ui-standalone-preset.js 304 - 1ms
+[2026-01-05 22:31:18] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:31:18] info: 	GET /swagger-ui-init.js 304 - 1ms
+[2026-01-05 22:31:18] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:31:18] info: 	GET /swagger-ui-bundle.js 304 - 1ms
+[2026-01-05 22:31:18] info: 	GET /api-docs/favicon-32x32.png
+[2026-01-05 22:31:22] info: 	Credentials found in environment variables
+[2026-01-05 22:31:22] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:31:22] info: 	Using API token from environment variables
+[2026-01-05 22:31:22] info: 	Using existing token from environment variables
+[2026-01-05 22:31:22] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:31:22] info: 	Server running on port 3001
+[2026-01-05 22:31:22] info: 	Environment: development
+[2026-01-05 22:31:22] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:31:22] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:31:25] info: 	GET /api-docs/
+[2026-01-05 22:31:25] info: 	GET / 304 - 5ms
+[2026-01-05 22:31:25] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:31:25] info: 	GET /swagger-ui.css 304 - 2ms
+[2026-01-05 22:31:25] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:31:25] info: 	GET /swagger-ui-standalone-preset.js 304 - 1ms
+[2026-01-05 22:31:25] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:31:25] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:31:25] info: 	GET /swagger-ui-init.js 200 - 1ms
+[2026-01-05 22:31:25] info: 	GET /swagger-ui-bundle.js 304 - 4ms
+[2026-01-05 22:34:47] info: 	Credentials found in environment variables
+[2026-01-05 22:34:47] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:34:47] info: 	Using API token from environment variables
+[2026-01-05 22:34:47] info: 	Using existing token from environment variables
+[2026-01-05 22:34:47] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:34:49] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:34:49] info: 	Using API token from environment variables
+[2026-01-05 22:34:49] info: 	Using existing token from environment variables
+[2026-01-05 22:34:49] info: 	Getting communities
+[2026-01-05 22:34:49] info: 	Getting communities
+[2026-01-05 22:34:49] error: 	Failed to get communities: Network Error
+[2026-01-05 22:34:49] info: 	Getting posts for community: 12345, page: 1, size: 20
+[2026-01-05 22:34:49] info: 	Getting posts for community: 12345, page: 2, size: 50
+[2026-01-05 22:34:49] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:35:00] info: 	Credentials found in environment variables
+[2026-01-05 22:35:00] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:35:00] info: 	Using API token from environment variables
+[2026-01-05 22:35:00] info: 	Using existing token from environment variables
+[2026-01-05 22:35:00] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:35:00] info: 	Server running on port 3001
+[2026-01-05 22:35:00] info: 	Environment: development
+[2026-01-05 22:35:00] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:35:00] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:35:21] info: 	GET /api-docs
+[2026-01-05 22:35:21] info: 	GET / 301 - 4ms
+[2026-01-05 22:35:21] info: 	GET /api-docs/
+[2026-01-05 22:35:21] info: 	GET / 304 - 3ms
+[2026-01-05 22:35:22] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:35:22] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:35:22] info: 	GET /swagger-ui.css 304 - 2ms
+[2026-01-05 22:35:22] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
+[2026-01-05 22:35:22] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:35:22] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:35:22] info: 	GET /swagger-ui-init.js 304 - 1ms
+[2026-01-05 22:35:22] info: 	GET /swagger-ui-bundle.js 304 - 3ms
+[2026-01-05 22:35:22] info: 	GET /api-docs/favicon-32x32.png
+[2026-01-05 22:35:47] info: 	GET /api-docs/
+[2026-01-05 22:35:47] info: 	GET / 304 - 1ms
+[2026-01-05 22:35:47] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:35:47] info: 	GET /swagger-ui.css 304 - 1ms
+[2026-01-05 22:35:47] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:35:47] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:35:47] info: 	GET /swagger-ui-bundle.js 304 - 2ms
+[2026-01-05 22:35:47] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
+[2026-01-05 22:35:47] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:35:47] info: 	GET /swagger-ui-init.js 304 - 1ms
+[2026-01-05 22:36:03] info: 	Credentials found in environment variables
+[2026-01-05 22:36:04] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:36:04] info: 	Using API token from environment variables
+[2026-01-05 22:36:04] info: 	Using existing token from environment variables
+[2026-01-05 22:36:04] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:36:55] info: 	Credentials found in environment variables
+[2026-01-05 22:36:55] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:36:55] info: 	Using API token from environment variables
+[2026-01-05 22:36:55] info: 	Using existing token from environment variables
+[2026-01-05 22:36:55] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:36:57] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:36:57] info: 	Using API token from environment variables
+[2026-01-05 22:36:57] info: 	Using existing token from environment variables
+[2026-01-05 22:36:57] info: 	Getting communities
+[2026-01-05 22:36:57] info: 	Getting communities
+[2026-01-05 22:36:57] error: 	Failed to get communities: Network Error
+[2026-01-05 22:36:57] info: 	Getting post details: post-1
+[2026-01-05 22:36:57] info: 	Getting posts for community: 12345, page: 1, size: 20, type: all
+[2026-01-05 22:36:57] info: 	Getting posts for community: 123, page: 1, size: 20, type: artist
+[2026-01-05 22:36:57] info: 	Getting posts for community: 12345, page: 2, size: 50, type: all
+[2026-01-05 22:36:57] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:36:59] info: 	Credentials found in environment variables
+[2026-01-05 22:36:59] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:36:59] info: 	Using API token from environment variables
+[2026-01-05 22:36:59] info: 	Using existing token from environment variables
+[2026-01-05 22:36:59] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:36:59] info: 	Server running on port 3001
+[2026-01-05 22:36:59] info: 	Environment: development
+[2026-01-05 22:36:59] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:36:59] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:37:09] info: 	GET /api-docs/
+[2026-01-05 22:37:09] info: 	GET / 304 - 5ms
+[2026-01-05 22:37:09] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:37:09] info: 	GET /swagger-ui.css 304 - 1ms
+[2026-01-05 22:37:09] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:37:09] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:37:09] info: 	GET /swagger-ui-init.js 304 - 0ms
+[2026-01-05 22:37:09] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
+[2026-01-05 22:37:09] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:37:09] info: 	GET /swagger-ui-bundle.js 304 - 2ms
+[2026-01-05 22:37:09] info: 	GET /api-docs/favicon-32x32.png
+[2026-01-05 22:38:47] info: 	Credentials found in environment variables
+[2026-01-05 22:38:47] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:38:47] info: 	Using API token from environment variables
+[2026-01-05 22:38:47] info: 	Using existing token from environment variables
+[2026-01-05 22:38:47] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:38:49] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:38:49] info: 	Using API token from environment variables
+[2026-01-05 22:38:49] info: 	Using existing token from environment variables
+[2026-01-05 22:38:49] info: 	Getting communities
+[2026-01-05 22:38:49] info: 	Getting communities
+[2026-01-05 22:38:49] error: 	Failed to get communities: Network Error
+[2026-01-05 22:38:49] info: 	Getting post details: post-1
+[2026-01-05 22:38:49] info: 	Getting posts for community: 12345, page: 1, size: 20, type: all
+[2026-01-05 22:38:49] info: 	Getting posts for community: 123, page: 1, size: 20, type: artist
+[2026-01-05 22:38:49] info: 	Getting posts for community: 12345, page: 2, size: 50, type: all
+[2026-01-05 22:38:49] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:38:56] info: 	Credentials found in environment variables
+[2026-01-05 22:38:56] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:38:56] info: 	Using API token from environment variables
+[2026-01-05 22:38:56] info: 	Using existing token from environment variables
+[2026-01-05 22:38:56] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:38:58] debug: 	WEVERSE_EMAIL loaded from .env: stokmlpipzstore01@gmail.com
+[2026-01-05 22:38:58] info: 	Using API token from environment variables
+[2026-01-05 22:38:58] info: 	Using existing token from environment variables
+[2026-01-05 22:38:58] info: 	Getting communities
+[2026-01-05 22:38:58] info: 	Getting communities
+[2026-01-05 22:38:58] error: 	Failed to get communities: Network Error
+[2026-01-05 22:38:58] info: 	Getting post details: post-1
+[2026-01-05 22:38:58] info: 	Getting posts for community: 12345, page: 1, size: 20, type: all
+[2026-01-05 22:38:58] info: 	Getting posts for community: 123, page: 1, size: 20, type: artist
+[2026-01-05 22:38:58] info: 	Getting posts for community: 12345, page: 2, size: 50, type: all
+[2026-01-05 22:38:58] info: 	Getting comments for post: post-123, page: 1, size: 20
+[2026-01-05 22:44:06] info: 	Credentials found in environment variables
+[2026-01-05 22:44:06] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-05 22:44:06] info: 	Using API token from environment variables
+[2026-01-05 22:44:06] info: 	Using existing token from environment variables
+[2026-01-05 22:44:06] info: 	Swagger UI available at /api-docs
+[2026-01-05 22:44:06] info: 	Server running on port 3001
+[2026-01-05 22:44:06] info: 	Environment: development
+[2026-01-05 22:44:06] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-05 22:44:06] info: 	Auto-login credentials found, attempting to log in
+[2026-01-05 22:44:09] info: 	GET /api-docs/
+[2026-01-05 22:44:09] info: 	GET / 304 - 5ms
+[2026-01-05 22:44:09] info: 	GET /api-docs/swagger-ui.css
+[2026-01-05 22:44:09] info: 	GET /swagger-ui.css 304 - 2ms
+[2026-01-05 22:44:09] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-05 22:44:09] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-05 22:44:09] info: 	GET /swagger-ui-init.js 304 - 0ms
+[2026-01-05 22:44:09] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
+[2026-01-05 22:44:09] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-05 22:44:09] info: 	GET /swagger-ui-bundle.js 304 - 1ms

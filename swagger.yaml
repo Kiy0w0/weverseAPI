@@ -4,7 +4,7 @@ info:
   description: Unofficial API wrapper for Weverse.io
   version: 1.0.0
   contact:
-    email: your_email@example.com
+    email: networkmizu@gmail.com
 servers:
   - url: http://localhost:3000
     description: Local development server
