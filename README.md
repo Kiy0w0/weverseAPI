@@ -6,18 +6,18 @@
 
 A robust, Vercel-ready Node.js wrapper for the Weverse API. Designed for developers, streamers, and data archivists who want to integrate Weverse content into their applications, Discord bots, or OBS overlays.
 
-> **⚠️ Disclaimer**: This is an unofficial API wrapper. Weverse endpoints are subject to change without notice. Use responsibly and at your own risk.
+> **Disclaimer**: This is an unofficial API wrapper. Weverse endpoints are subject to change without notice. Use responsibly and at your own risk.
 
-## ✨ Key Features
+##  Key Features
 
-- **🚀 Vercel Ready**: fully optimized for Serverless deployment (Vercel, AWS Lambda).
-- **📡 RSS Feed Generator**: Convert community posts into RSS feeds for Feedly, Inoreader, or Discord bots.
-- **📅 Post Calendar**: Generate `.ics` calendar files to subscribe to artist updates in Google Calendar.
-- **🖼️ Smart Widgets**: Beautiful HTML widgets for OBS overlays or Notion embeds with Glassmorphism design.
-- **📊 Data Export**: Download community posts as JSON for archiving or analysis.
-- **💬 Engagement**: Fetch comments and user notifications.
-- **🔐 Security**: RSA encryption login, no hardcoded credentials, and Helmet/Rate-Limit protection.
-- **⚡ Performance**: Built-in in-memory caching (`node-cache`) to respect API limits.
+- **Vercel Ready**: fully optimized for Serverless deployment (Vercel, AWS Lambda).
+- **RSS Feed Generator**: Convert community posts into RSS feeds for Feedly, Inoreader, or Discord bots.
+- **Post Calendar**: Generate `.ics` calendar files to subscribe to artist updates in Google Calendar.
+- **Smart Widgets**: Beautiful HTML widgets for OBS overlays or Notion embeds with Glassmorphism design.
+- **Data Export**: Download community posts as JSON for archiving or analysis.
+- **Engagement**: Fetch comments and user notifications.
+- **Security**: RSA encryption login, no hardcoded credentials, and Helmet/Rate-Limit protection.
+- **Performance**: Built-in in-memory caching (`node-cache`) to respect API limits.
 
 ##  Getting Started
 
