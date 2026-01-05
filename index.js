@@ -105,6 +105,15 @@ app.get('/api-docs', (req, res) => {
       <title>Weverse API Documentation</title>
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <!-- Discord / Open Graph Meta Tags -->
+      <meta property="og:title" content="Weverse API (Unofficial)" />
+      <meta property="og:description" content="A powerful, API wrapper for Weverse. Access communities, posts, widgets, and calendars easily." />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://weverse-api.vercel.app/api-docs" />
+      <meta property="og:image" content="https://static.wikia.nocookie.net/the-bangtan-boys/images/c/c8/Weverse_Icon_%282022-present%29.webp/revision/latest?cb=20231214123606" />
+      <meta name="theme-color" content="#00C73C" />
+      
       <style>body { margin: 0; padding: 0; }</style>
     </head>
     <body>
