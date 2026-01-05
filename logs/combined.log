@@ -756,3 +756,35 @@
 [2026-01-05 22:44:09] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
 [2026-01-05 22:44:09] info: 	GET /api-docs/swagger-ui-bundle.js
 [2026-01-05 22:44:09] info: 	GET /swagger-ui-bundle.js 304 - 1ms
+[2026-01-06 01:27:37] info: 	Credentials found in environment variables
+[2026-01-06 01:27:37] debug: 	WEVERSE_EMAIL loaded from .env: amelandini200@gmail.com
+[2026-01-06 01:27:37] info: 	Using API token from environment variables
+[2026-01-06 01:27:37] info: 	Using existing token from environment variables
+[2026-01-06 01:27:37] info: 	Swagger UI available at /api-docs
+[2026-01-06 01:27:37] info: 	Server running on port 3001
+[2026-01-06 01:27:37] info: 	Environment: development
+[2026-01-06 01:27:37] info: 	API Documentation: http://localhost:3001/api-docs
+[2026-01-06 01:27:37] info: 	Auto-login credentials found, attempting to log in
+[2026-01-06 01:27:41] info: 	GET /api-docs
+[2026-01-06 01:27:41] info: 	GET / 301 - 4ms
+[2026-01-06 01:27:41] info: 	GET /api-docs/
+[2026-01-06 01:27:41] info: 	GET / 200 - 3ms
+[2026-01-06 01:27:41] info: 	GET /api-docs/swagger-ui.css
+[2026-01-06 01:27:41] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-06 01:27:41] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-06 01:27:41] info: 	GET /swagger-ui-init.js 200 - 1ms
+[2026-01-06 01:27:41] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-06 01:27:41] info: 	GET /swagger-ui-bundle.js 304 - 3ms
+[2026-01-06 01:27:41] info: 	GET /swagger-ui.css 200 - 15ms
+[2026-01-06 01:27:41] info: 	GET /swagger-ui-standalone-preset.js 200 - 13ms
+[2026-01-06 01:27:41] info: 	GET /api-docs/favicon-32x32.png
+[2026-01-06 01:27:42] info: 	GET /api-docs/
+[2026-01-06 01:27:42] info: 	GET / 304 - 1ms
+[2026-01-06 01:27:42] info: 	GET /api-docs/swagger-ui.css
+[2026-01-06 01:27:42] info: 	GET /api-docs/swagger-ui-bundle.js
+[2026-01-06 01:27:42] info: 	GET /api-docs/swagger-ui-standalone-preset.js
+[2026-01-06 01:27:42] info: 	GET /swagger-ui.css 304 - 3ms
+[2026-01-06 01:27:42] info: 	GET /swagger-ui-bundle.js 304 - 3ms
+[2026-01-06 01:27:42] info: 	GET /swagger-ui-standalone-preset.js 304 - 2ms
+[2026-01-06 01:27:42] info: 	GET /api-docs/swagger-ui-init.js
+[2026-01-06 01:27:42] info: 	GET /swagger-ui-init.js 304 - 0ms
